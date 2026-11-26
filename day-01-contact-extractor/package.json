@@ -1,0 +1,23 @@
+{
+  "name": "day-01-contact-extractor",
+  "version": "1.0.0",
+  "description": "Day 1 — Structured output: extract contact info from messages using AI",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ts-node index.ts",
+    "build": "tsc",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": [],
+  "type": "commonjs",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "groq-sdk": "^1.6.0",
+    "zod": "^3.22.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "ts-node": "^10.9.0",
+    "typescript": "^5.0.0"
+  }
+}
